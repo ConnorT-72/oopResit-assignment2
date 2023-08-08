@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Welcome to the Card and Suit System!");
+        Console.WriteLine("Welcome!");
 
         Pack pack = new Pack();
         Tutorial tutorial = new Tutorial();
@@ -36,11 +36,11 @@ class Program
                             Console.WriteLine(card);
                         }
 
-                        Console.WriteLine("\nMaths Sum: (Number1 + Number2) * Number3");
+                        Console.WriteLine("\nMaths Sum: Number1 + Number3");
                         Console.Write("Enter your answer: ");
                         int answer = int.Parse(Console.ReadLine());
 
-                        int sum = (cards[0].Number + cards[1].Number) * cards[2].Number;
+                        int sum = cards[0].Number + cards[2].Number;
                         if (answer == sum)
                         {
                             Console.WriteLine("Correct! Well done!");
@@ -71,6 +71,6 @@ class Program
             }
         }
 
-        Console.WriteLine("Goodbye! Thank you for using the Card and Suit System.");
+        Console.WriteLine("Goodbye!");
     }
 }

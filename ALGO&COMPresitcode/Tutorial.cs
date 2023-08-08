@@ -4,7 +4,7 @@ public class Tutorial
 {
     public void ShowInstructions()
     {
-        Console.WriteLine("Welcome to the tutor program!");
+        Console.WriteLine("Welcome!");
         Console.WriteLine("Instructions: ");
         Console.WriteLine("1. Choose the 'Deal 3 cards' option to get three cards.");
         Console.WriteLine("2. Each card will have a number and a suit.");
