@@ -54,7 +54,8 @@ class Program
                         string repeat = Console.ReadLine();
                         if (repeat.ToUpper() != "Y")
                         {
-                            running = false;
+                            running = true;
+                            
                         }
                     }
                     catch (Exception ex)
